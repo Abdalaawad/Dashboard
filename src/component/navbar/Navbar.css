@@ -1,0 +1,67 @@
+.app-navbar {
+    display: flex;
+    width: 100%;
+    /* flex: 5; */
+    color: #555;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.app-navbar-input {
+    display: flex;
+    /* justify-content: center; */
+    /* width: 100%; */
+    border: 1px solid gray;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    
+    
+} 
+
+.app-navbar-input input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    
+}
+.app-navpar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.app-navbar-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+}
+.world {
+    margin-right: 7px;
+}
+.navbar-icon {
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.nav-bar-notif {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    right: -6px;
+}
+.nav-bar-notif span {
+    display: flex ;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    /* font-size: 3px; */
+}

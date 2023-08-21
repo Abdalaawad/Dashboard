@@ -1,0 +1,9 @@
+.app-lists-page {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+.app-lists-app-navbar {
+    width: 100%;
+    
+}

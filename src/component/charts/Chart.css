@@ -1,0 +1,12 @@
+.app-chart {
+    flex: 2;
+    box-shadow: #00000029 0px 1px 4px;
+  
+    color: gray;
+    /* height: max-content; */
+    padding: 10px 5px;
+}
+.app-chart-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}

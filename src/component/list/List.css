@@ -1,0 +1,17 @@
+.app-list-table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Approved {
+    color: green;
+    background-color: rgba(0, 128,0 , 0.151);
+    padding: 5px;
+    border-radius: 5px;
+}
+.Pending {
+    color: goldenrod;
+    background-color: rgba(0, 128,0 , 0.151);
+    padding: 5px;
+    border-radius: 5px;
+}

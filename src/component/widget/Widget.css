@@ -1,0 +1,83 @@
+.app-widget {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+    /* background-color: #eee; */
+    margin-right: 10px;
+}
+.app-widget-left {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    flex-direction: column;
+    color: rgb(160, 160, 160);
+}
+.app-widget-left span {
+    margin-bottom:12px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    
+    
+}
+.amount-widget {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+}
+.title-widget {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+
+.app-widget-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-widget-arrow {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-bottom: 35px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.positive {
+    color: green;
+}
+.negative {
+ 
+    color: red;
+}
+.alluser-widget {
+    /* border-bottom: 0.5px solid gray; */
+    margin-right: 6px;
+    /* width: 40%; */
+    /* width: max-content; */
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    display: block;
+}
+.widget-icon-profile {
+    font-size: 26px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
